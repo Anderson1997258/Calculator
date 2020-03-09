@@ -140,8 +140,7 @@ class Calculator {
         case "÷":
             answer = number2 / number1
         default:
-            answer = 0
-            break
+            return 0
         }
         
         return answer
